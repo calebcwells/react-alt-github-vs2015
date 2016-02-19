@@ -25,15 +25,9 @@ If you don't have VS 2015 installed (not required) follow these steps.
 * Navigate to [localhost:12345](http://localhost:12345) in your browser of choice
 * You are done :)
 
-If you have any questions or issues let me know.
-
 #####Notes
 
 You may need to run dnu restore a couple of times to make sure it gets all the necessary libraries since I have made some significant changes.  
-I have not tried to open this solution with VS2013. My best guess is that it will choke and error out.  
 If you plan on working strictly in javascript using REACT you are good to go. Make new jsx files and require them correctly and webpack will handle the rest.  
 If you are going to be doing some C# you can write it without using Visual Studio. The new .NET compiler (Roslyn) will dynamically compile the C# code for you when you run the website. The major downside is you won't get intellisense or other IDE help.  
-In commit 2159f5c I include a couple of code snippets for use in VS 2015. The instructions to install them are [here](https://msdn.microsoft.com/en-us/library/ms165394.aspx) under the section 'To Add a Code Snippet to Visual Studio'.  
-
-Thanks,  
-Caleb
+To install the snippets in the root follow the instructions[here](https://msdn.microsoft.com/en-us/library/ms165394.aspx) under the section 'To Add a Code Snippet to Visual Studio'.  
