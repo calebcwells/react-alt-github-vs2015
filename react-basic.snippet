@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets
+    xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Basic React Component</Title>
+      <Author>Caleb Wells</Author>
+      <Description>Basic REACT component</Description>
+      <Shortcut>rb</Shortcut>
+    </Header>
+    <Snippet>
+       <Declarations>
+        <Literal>
+          <ID>name</ID>
+          <ToolTip>Replace with a variable name for a required child component.</ToolTip>
+          <Default>Temp</Default>
+        </Literal>
+        <Literal>
+          <ID>require</ID>
+          <ToolTip>Replace with the path to the required child component.</ToolTip>
+          <Default>./</Default>
+        </Literal>
+      </Declarations>
+     <Code Language="JavaScript">
+<![CDATA[var React = require("react");
+var $name$ = require("$require$");
+
+module.exports = React.createClass({
+	render() {
+		return (
+			<div>
+				<$name$ />
+				<div >
+					Hello World!
+				</div>
+			</div>
+		)
+	}
+});]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
