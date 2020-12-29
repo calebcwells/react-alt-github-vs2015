@@ -1,4 +1,4 @@
-###REACT with lean Visual Studio 2015 solution
+## This repository is archived
 
 Install Steps
 
@@ -25,7 +25,7 @@ If you don't have VS 2015 installed (not required) follow these steps.
 * Navigate to [localhost:12345](http://localhost:12345) in your browser of choice
 * You are done :)
 
-#####Notes
+##### Notes
 
 You may need to run dnu restore a couple of times to make sure it gets all the necessary libraries since I have made some significant changes.  
 If you plan on working strictly in javascript using REACT you are good to go. Make new jsx files and require them correctly and webpack will handle the rest.  
